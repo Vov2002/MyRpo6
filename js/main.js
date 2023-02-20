@@ -13,17 +13,15 @@ let out2 = document.querySelector('.out2')
 let c = [20,21,22,23,24,25,26,27,28,29,30,31,32]
 cn.onclick = () =>{
     for (let i = 0; i < c.length; i++) {
-        let item = c[i];
-        if(item % 2 == 0) 
-          console.log(item);
+        if(c[i] % 2 == 0) 
+          console.log(c[i]);
       }
 }
 //Задание 3
 ncn.onclick = () =>{
     for (let i = 0; i < c.length; i++) {
-        let item = c[i];
-        if(item % 2) 
-          console.log(item);
+        if(c[i] % 2) 
+          console.log(c[i]);
       }
 }
 //Задание 4
